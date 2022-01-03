@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400&display=swap');
+/*font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+*{
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 1.6rem;
+    text-indent: 8%;
+    }
+
+h1,h2{
+    color: #fff;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-family: 'Fredericka the Great', cursive;
+    padding: 2rem;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 80vh;
+    background: url(/assets/img/bg.jpeg)no-repeat center/cover;
+}
+header section{
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 15%;
+    text-align: center;
+}
+header p,a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+}
+button{
+    margin-top: 10px;
+    padding: 5px 20px; 
+    background-color:transparent;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+button:hover{
+    background-color:#fff;
+    color: #000;
+}
+header nav {
+    text-align: right;
+    padding-top: 4%;
+    padding-right: 10%;
+}
+ul{
+list-style:none;
+}
+header nav ul li{
+    padding: 5px;
+}
+header nav ul li a{
+    text-align: right;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+main section{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+main p{
+    font-family: 'Open Sans', sans-serif;
+    color: #3a3b4a;
+    font-size: 1rem;
+}
+main section button{
+    width: 150px;
+    color:#3a3b4a;
+    border: 2px solid #3a3b4a;
+    font-size: 1rem;
+    padding: 15px 15px;
+    margin: 30px 30px 80px 30px;
+    line-height: 1.5;
+}
+main section button:hover{
+text-decoration: underline;
+}
+footer{
+background-color: #3a3b4a;
+font-size: .8rem;
+font-family: 'Open Sans', sans-serif;
+}
+footer article{
+    width: 50%;
+    margin: 20px;
+    margin-top: 0;
+}
+footer p{
+    color: #fff;
+    padding-top: 20px;
+}
+footer nav {
+text-align: right;
+padding: 10px;
+}
+footer nav ul li{
+    display: inline;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
